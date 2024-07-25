@@ -29,6 +29,9 @@ gem "jbuilder"
 
 # Use gem config
 gem "config"
+# Use gem bcrypt
+gem "bcrypt", "3.1.18"
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
