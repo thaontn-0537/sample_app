@@ -1,7 +1,4 @@
 links:
-  home: "home"
-  help: "help"
-  login: "#"
   rails:
     url: "https://www.railstutorial.org"
     book: "https://www.railstutorial.org/book"
@@ -9,4 +6,4 @@ links:
 value:
   max_user_name: 50
   max_user_email: 255
-  valid_email: /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+  valid_email: \A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z
