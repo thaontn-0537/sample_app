@@ -1,4 +1,19 @@
 en:
+  activerecord:
+    models:
+      user: "User"
+    attributes:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+    errors:
+      messages:
+        blank: "can't be blank"
+        invalid: "is invalid"
+      error: "error"
+      the_form_contains: "The form contains"
+
   layouts:
     application:
       base_title: "Ruby on Rails Tutorial Sample App"
@@ -23,3 +38,13 @@ en:
         main: "This is the home page for the %{rails_url} sample application."
         rails: "Ruby On Rails Tutorial"
         sign_up: "Sign up now!"
+  
+  users:
+    message:
+      new: "User created successfully"
+      not_found: "User not found!"
+    new:
+      title: "Sign up"
+      form:
+        confirmation: "Confirmation"
+        submit_button: "Create my account"

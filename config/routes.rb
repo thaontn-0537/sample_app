@@ -1,9 +1,10 @@
 Rails.application.routes.draw do
   get "static_pages/home"
   get "static_pages/help"
-  # resources :static_pages, only: %i(home help) 
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  get "/signup", to: "users#new"
+  post "/signup", to: "users#create"
+  resources :users, only: :show
 
   # Defines the root path route ("/")
-  # root "articles#index"
+  root "static_pages#home"
 end
