@@ -23,6 +23,20 @@ vi:
         home: "Trang chủ"
         help: "Trợ giúp"
         log_in: "Đăng nhập"
+
+    sessions:
+      new:
+        title: "Đăng nhập"
+        form:
+          password: "Mật khẩu"
+          submit_button: "Đăng nhập"
+        new_user?: "Người dùng mới?"
+        sign_up: "Đăng ký ngay!"
+        title: "Đăng nhập"
+      create:
+        message:
+          invalid_email_password_combination: "Email hoặc mật khẩu không hợp lệ"
+    
   static_pages:
     help:
       title: "Trợ giúp"
