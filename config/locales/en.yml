@@ -31,6 +31,7 @@ en:
         password: "Password"
         submit_button: "Login"
       new_user?: "New user?"
+      remember_me: "Remember me on this device"
       sign_up: "Sign up now!"
     create:
       message:
