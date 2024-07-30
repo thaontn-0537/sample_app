@@ -6,4 +6,10 @@ links:
 value:
   max_user_name: 50
   max_user_email: 255
+  min_user_password: 6
   valid_email: \A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z
+gravatar:
+  md: 80
+  sm: 50
+  link: "http://gravatar.com/emails"
+page: 10
