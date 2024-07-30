@@ -31,6 +31,7 @@ vi:
           password: "Mật khẩu"
           submit_button: "Đăng nhập"
         new_user?: "Người dùng mới?"
+        remember_me: "Tự động đăng nhập trên thiết bị này"
         sign_up: "Đăng ký ngay!"
         title: "Đăng nhập"
       create:
