@@ -5,8 +5,7 @@ Rails.application.routes.draw do
   get "static_pages/home"
   get "static_pages/help"
   get "/signup", to: "users#new"
-  post "/signup", to: "users#create"
-  resources :users, only: :show
+  resources :users, only: %i(show create edit update index destroy)
 
   # Defines the root path route ("/")
   root "static_pages#home"

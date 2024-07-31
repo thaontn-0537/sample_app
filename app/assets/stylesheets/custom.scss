@@ -1,5 +1,6 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import 'color';
 
 /* universal */
 body {
@@ -27,7 +28,7 @@ textarea {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: #fff;
+  color: white;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
@@ -35,7 +36,7 @@ textarea {
 }
 
 #logo:hover {
-  color: #fff;
+  color: white;
   text-decoration: none;
 }
 
@@ -84,7 +85,7 @@ input,
 textarea,
 select,
 .uneditable-input {
-  border: 1px solid #bbb;
+  border: 1px solid $light-gray;
   width: 100%;
   margin-bottom: 15px;
 }
@@ -123,4 +124,16 @@ input {
 #session_remember_me {
   margin-left: 0;
   width: auto;
+}
+
+/* Users index */
+.users {
+  list-style: none;
+  margin: 0;
+
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $light-gray;
+  }
 }

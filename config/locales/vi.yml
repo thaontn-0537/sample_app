@@ -33,7 +33,6 @@ vi:
         new_user?: "Người dùng mới?"
         remember_me: "Tự động đăng nhập trên thiết bị này"
         sign_up: "Đăng ký ngay!"
-        title: "Đăng nhập"
       create:
         message:
           invalid_email_password_combination: "Email hoặc mật khẩu không hợp lệ"
@@ -56,10 +55,26 @@ vi:
 
   users:
     message:
+      auth:
+        edit: "Bạn không thể chỉnh sửa người dùng này."
+        delete: "Bạn không thể xóa người dùng này."
+      delete_fail: "Xóa thất bại!"
+      deleted: "Người dùng đã bị xóa"
+      log_in: "Vui lòng đăng nhập."
       new: "Người dùng được tạo thành công"
       not_found: "Không tìm thấy người dùng!"
+      updated: "Hồ sơ đã được cập nhật"
     new:
       title: "Đăng ký"
+      submit_button: "Tạo tài khoản mới"
       form:
         confirmation: "Xác nhận"
-        submit_button: "Tạo tài khoản mới"
+    edit:
+      title: "Chỉnh sửa"
+      change: "Đổi"
+      header: "Cập nhật hồ sơ"
+      submit_button: "Lưu thay đổi"
+    index:
+      title: "Danh sách người dùng"
+    user:
+      you_sure?: "Bạn có chắc chắn không"

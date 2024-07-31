@@ -55,10 +55,26 @@ en:
   
   users:
     message:
+      auth:
+        edit: "You cannot edit this user."
+        delete: "You cannot delete this user."
+      delete_fail: "Delete fail!"
+      deleted: "User deleted"
+      log_in: "Please log in."
       new: "User created successfully"
       not_found: "User not found!"
+      updated: "Profile updated"
     new:
       title: "Sign up"
+      submit_button: "Create my account"
       form:
         confirmation: "Confirmation"
-        submit_button: "Create my account"
+    edit:
+      title: "Edit user"
+      change: "Change"
+      header: "Update your profile"
+      submit_button: "Save changes"
+    index:
+      title: "All users"
+    user:
+      you_sure?: "You sure?"

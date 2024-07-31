@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  scope :sorted_by_name, ->{order(:name)}
   VALID_EMAIL_REGEX = Regexp.new(Settings.value.valid_email)
 
   before_save :downcase_email
@@ -8,7 +9,10 @@ class User < ApplicationRecord
   validates :email, presence: true,
     length: {maximum: Settings.value.max_user_email},
     format: {with: VALID_EMAIL_REGEX},
-    uniqueness: true
+    uniqueness: {case_sensitive: false}
+  validates :password, presence: true,
+    length: {minimum: Settings.value.min_user_password},
+    allow_nil: true
 
   has_secure_password
   attr_accessor :remember_token
