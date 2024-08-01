@@ -13,3 +13,4 @@ gravatar:
   sm: 50
   link: "http://gravatar.com/emails"
 page: 10
+password_reset_expire: 2

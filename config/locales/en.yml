@@ -33,6 +33,7 @@ en:
       new_user?: "New user?"
       remember_me: "Remember me on this device"
       sign_up: "Sign up now!"
+      forgot_password: "Forgot password?"
     create:
       message:
         invalid_email_password_combination: "Invalid email or password"
@@ -87,8 +88,31 @@ en:
       content: "Welcome to the Sample App! Click on the link below to activate your account:"
       account_activation: "Account activation"
       activate: "Activate"
+    password_reset:
+      title: "Password reset"
+      reset_password: "Reset password"
+      content: "To reset your password click the link below:"
+      expiration: "This link will expire in two hours."
+      ignore: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
   
   account_activations:
     message:
       account_activated: "Account activated!"
       invalid_activation_link: "Invalid activation link"
+
+  password_resets:
+    new:
+      title: "Forgot password"
+      submit_button: "Submit"
+    edit:
+      title: "Reset password"
+      confirmation: "Confirmation"
+      submit_button: "Update password"
+    message:
+      email_sent: "Email sent with password reset instructions"
+      email_not_found: "Email address not found"
+      blank: "can't be blank"
+      success: "Password has been reset."
+      user_not_found: "User not found!"
+      inactivated: "User is not activated!"
+      expired: "Password reset has expired."
