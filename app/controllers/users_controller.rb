@@ -8,7 +8,9 @@ class UsersController < ApplicationController
     @pagy, @users = pagy(User.sorted_by_name, limit: Settings.page)
   end
 
-  def show; end
+  def show
+    @page, @microposts = pagy(@user.microposts, limit: Settings.page)
+  end
 
   def new
     @user = User.new
@@ -58,14 +60,6 @@ class UsersController < ApplicationController
 
     flash[:danger] = t ".message.not_found"
     redirect_to root_url
-  end
-
-  def logged_in_user
-    return if logged_in?
-
-    flash[:danger] = t ".message.log_in"
-    store_location
-    redirect_to login_url
   end
 
   def correct_user

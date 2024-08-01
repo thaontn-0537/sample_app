@@ -54,6 +54,7 @@ en:
         main: "This is the home page for the %{rails_url} sample application."
         rails: "Ruby On Rails Tutorial"
         sign_up: "Sign up now!"
+        feed: "Feed"
   
   users:
     message:
@@ -72,6 +73,8 @@ en:
       submit_button: "Create my account"
       form:
         confirmation: "Confirmation"
+    show:
+      micropost: "Micropost"
     edit:
       title: "Edit user"
       change: "Change"
@@ -116,3 +119,29 @@ en:
       user_not_found: "User not found!"
       inactivated: "User is not activated!"
       expired: "Password reset has expired."
+
+  microposts:
+    message:
+      created: "Micropost created"
+      deleted: "Micropost deleted"
+      delete_failed: "Micropost deletion failed"
+      invalid: "Invalid micropost"
+      image_format: "must be a valid image format"
+      size_max: "should be less than 5MB"
+    micropost:
+      posted: "Posted"
+      ago: "ago"
+      delete: "Delete"
+      you_sure?: "You sure?"
+
+  shared:
+    error_messages:
+      error: "error"
+      the_form_contains: "The form contains"
+    micropost_form:
+      new: "Compose new micropost..."
+      max_size: "Maximum file size is 5MB. Please choose a smaller file."
+      post: "Post"
+    user_info:
+      view_profile: "View profile"
+      micropost: "micropost"
