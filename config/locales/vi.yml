@@ -36,6 +36,7 @@ vi:
       create:
         message:
           invalid_email_password_combination: "Email hoặc mật khẩu không hợp lệ"
+          not_activated: "Tài khoản chưa được kích hoạt. Vui lòng kiểm tra email của bạn để lấy liên kết kích hoạt"
     
   static_pages:
     help:
@@ -64,6 +65,7 @@ vi:
       new: "Người dùng được tạo thành công"
       not_found: "Không tìm thấy người dùng!"
       updated: "Hồ sơ đã được cập nhật"
+      check_email: "Vui lòng kiểm tra email của bạn để kích hoạt tài khoản"
     new:
       title: "Đăng ký"
       submit_button: "Tạo tài khoản mới"
@@ -78,3 +80,14 @@ vi:
       title: "Danh sách người dùng"
     user:
       you_sure?: "Bạn có chắc chắn không"
+
+  user_mailer:
+    account_activation:
+      greeting: "Xin chào"
+      content: "Chào mừng bạn đến với Sample App! Nhấp vào liên kết dưới đây để kích hoạt tài khoản của bạn:"
+      account_activation: "Kích hoạt tài khoản"
+      activate: "Kích hoạt"
+  account_activations:
+    message:
+      account_activated: "Tài khoản đã được kích hoạt!"
+      invalid_activation_link: "Liên kết không hợp lệ"

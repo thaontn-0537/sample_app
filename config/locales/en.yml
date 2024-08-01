@@ -36,6 +36,7 @@ en:
     create:
       message:
         invalid_email_password_combination: "Invalid email or password"
+        not_activated: "Account not activated. Please check your email for the activation link"
 
   static_pages:
     help:
@@ -64,6 +65,7 @@ en:
       new: "User created successfully"
       not_found: "User not found!"
       updated: "Profile updated"
+      check_email: "Please check your email to activate your account"
     new:
       title: "Sign up"
       submit_button: "Create my account"
@@ -78,3 +80,15 @@ en:
       title: "All users"
     user:
       you_sure?: "You sure?"
+
+  user_mailer:
+    account_activation:
+      greeting: "Hi"
+      content: "Welcome to the Sample App! Click on the link below to activate your account:"
+      account_activation: "Account activation"
+      activate: "Activate"
+  
+  account_activations:
+    message:
+      account_activated: "Account activated!"
+      invalid_activation_link: "Invalid activation link"
