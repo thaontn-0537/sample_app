@@ -84,6 +84,12 @@ en:
       title: "All users"
     user:
       you_sure?: "You sure?"
+    show_follow:
+      view_profile: "View profile"
+    following: "Following"
+    followers: "Followers"
+    follow: "Follow"
+    unfollow: "Unfollow"
 
   user_mailer:
     account_activation:
@@ -145,3 +151,11 @@ en:
     user_info:
       view_profile: "View profile"
       micropost: "micropost"
+    stats:
+      following: "following"
+      followers: "followers"
+  
+  relationships:
+    message:
+      relationship_not_found: "Relationship not found!"
+      user_not_found: "User not found!"
