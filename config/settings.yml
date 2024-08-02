@@ -14,3 +14,10 @@ gravatar:
   link: "http://gravatar.com/emails"
 page: 10
 password_reset_expire: 2
+micropost:
+  content:
+    max_length: 140
+  image_valid_format: ["image/jpeg", "image/gif", "image/png"]
+  image_height: 500
+  image_width: 500
+  image_max_size: 5
