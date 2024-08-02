@@ -11,6 +11,7 @@ value:
 gravatar:
   md: 80
   sm: 50
+  xs: 30
   link: "http://gravatar.com/emails"
 page: 10
 password_reset_expire: 2
